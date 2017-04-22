@@ -1,9 +1,75 @@
 /*
-Theme Name: Osqledaren Headless Theme (Based on Moxies Headless Theme)
+Theme Name: Osqledaren Headless
 Theme URI: https://github.com/osqledaren/osqledaren-headless-wp-theme
-Author: Osqledaren, Moxie
+Author: Osqledaren
 Author URI: https://osqledaren.se/
 Description: Headless theme that uses the WP API instead of regular flow.
-Version: 0.1.0
+Version: 0.2.0
 License:
 */
+
+html,body {
+    padding:0;
+    margin:0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #f05022;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    line-height:1.5rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 1rem;
+    line-height:1.5rem;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.wrapper {
+    display: table;
+    min-height: 320px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inner {
+    width: 100%;
+    max-width: 480px;
+    margin:auto;
+}
+
+.notice {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    line-height:1.5rem;
+    margin: 1rem auto;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: auto;
+    display: inline-block;
+    padding:0.75rem 2rem;
+    background: black;
+    border-radius: 3px;
+}
+
+
+.button:hover {
+    background: #333;
+}
