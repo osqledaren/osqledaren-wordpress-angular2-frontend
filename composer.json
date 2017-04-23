@@ -1,3 +1,8 @@
 {
-  "name": "osqledaren/osqledaren-wordpress-angular2-frontend"
+  "name": "osqledaren/osqledaren-wordpress-angular2-frontend",
+  "description": "Disables wordpress public frontend.",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "~1.0"
+  }
 }
