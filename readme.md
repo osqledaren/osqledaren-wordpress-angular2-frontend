@@ -1,6 +1,4 @@
-# Osqledaren Headless
-
-Based on Moxie Lean's [Headless Theme](https://github.com/moxie-lean/wp-headless-theme)
+# Osqledaren Angular 2
 
 > WordPress theme used on a architecture where the FrontEnd of a WordPress
 site is handled using the Wordpress API.  

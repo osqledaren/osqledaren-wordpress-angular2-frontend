@@ -11,7 +11,7 @@
                      src="<?php echo get_stylesheet_directory_uri() ?>/img/ol_logo.png"/>
                 <h1 class="heading"><?php _e('The content of Osqledaren is served externally.', 'osqledaren-headless'); ?></h1>
                 <a class="button" rel="nofollow" title="Go to App" href="http://osqledaren.se">
-                    <?php _e('Take me to the site!', 'osqledaren-headless'); ?>
+                    <?php _e('Take me to the site!', 'osqledaren-angular2'); ?>
                 </a>
             </div>
         </div>
