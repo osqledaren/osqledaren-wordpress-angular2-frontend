@@ -19,23 +19,25 @@ html {
 
 body {
     font-family: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background: #f05022;
     font-size: 1rem;
-    color: white;
     text-align: center;
     position: relative;
     line-height:1.5rem;
+    background: #f0f0f0;
+    color:#333;
 }
 
 h1 {
-    font-size: 1.2rem;
-    margin: 1rem;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 1rem 0;
     line-height:1.5rem;
 }
 
 .logo {
-    height: 100px;
+    height: 90px;
     width: auto;
+    margin:1rem;
 }
 
 .wrapper {
@@ -46,9 +48,11 @@ h1 {
 }
 
 .inner {
-    width: 100%;
+    width: auto;
     max-width: 480px;
     margin:auto;
+    padding:1.5rem;
+    background:white;
 }
 
 .notice {
@@ -56,20 +60,80 @@ h1 {
     vertical-align: middle;
 }
 
-.button {
-    line-height:1.5rem;
-    margin: 1rem auto;
+.button, main input[type="submit"] {
+    line-height:1.5rem!important;
+    margin: 1rem 0.5rem!important;
     color: white;
-    font-weight: bold;
-    text-decoration: none;
-    width: auto;
-    display: inline-block;
-    padding:0.75rem 2rem;
-    background: black;
-    border-radius: 3px;
+    font-weight: bold!important;
+    text-decoration: none!important;
+    width: auto!important;
+    display: inline-block!important;
+    padding:0.75rem 2rem!important;
+    background: black!important;
+    transition: background 0.2s ease-in-out!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    border-width: 0!important;
+    height: auto!important;
+    border-radius:0!important;
+    text-shadow: none!important;
+}
+
+.button-right {
+    background: #f05022!important;
+}
+
+.button:hover {
+    background: #999!important;
+}
+
+.login form {
+    padding:2rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.login .button-primary {
+    float:none;
+    margin: 1rem 0 0!important;
+}
+
+.login form * {
+    font-size: inherit!important;
+    line-height: inherit!important;
+}
+
+.login form .forgetmenot {
+    float:none;
+}
+
+.login form p.submit {
+    text-align: center;
+}
+
+.login form .input, .login input[type=text] {
+    border:0;
+    padding:0.5rem;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: #eee;
+}
+
+.login form input[type="submit"] {
+    background: #f05022!important;
+}
+
+.login form input[type="submit"]:hover {
+    background: #000!important;
 }
 
 
-.button:hover {
-    background: #333;
+.login label {
+    color:black;
+}
+
+.login h1 a {
+    background-image: none, url('img/ol_logo_black.png');
+    background-size: 90px;
+    background-position: center bottom;
 }
