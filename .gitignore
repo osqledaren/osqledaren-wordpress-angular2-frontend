@@ -167,4 +167,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/phpstorm,macos,windows,webstorm,sublimetext.idea
+# End of https://www.gitignore.io/api/phpstorm,macos,windows,webstorm,sublimetext
+
+.idea
