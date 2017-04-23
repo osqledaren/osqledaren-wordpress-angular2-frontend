@@ -2,6 +2,14 @@
 <html class="no-js" lang="">
 <?php wp_head(); ?>
 <body>
+
+<?php
+
+$app_url = get_option('osqledaren_angular2_app_url');
+$app_url = rtrim($app_url, '/');
+
+?>
+
 <?php wp_footer(); ?>
 <main id="main" role="main">
     <div class="wrapper">
@@ -10,7 +18,7 @@
                 <img class="logo" title="Logo of Osqledaren"
                      src="<?php echo get_stylesheet_directory_uri() ?>/img/ol_logo.png"/>
                 <h1 class="heading"><?php _e('The content of Osqledaren is served externally.', 'osqledaren-headless'); ?></h1>
-                <a class="button" rel="nofollow" title="Go to App" href="http://osqledaren.se">
+                <a class="button" rel="nofollow" title="Go to App" href="<?php echo $app_url; ?>">
                     <?php _e('Take me to the site!', 'osqledaren-angular2'); ?>
                 </a>
             </div>
